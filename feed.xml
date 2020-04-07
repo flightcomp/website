@@ -3,10 +3,32 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2020-04-07T17:30:24+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
     <id>https://flightcomp.github.io/website</id>
 
+    <entry>
+        <title>Glide computing algorithms</title>
+        <author>
+            <name>Roberto Chao</name>
+        </author>
+        <link href="https://flightcomp.github.io/website/glide-computers.html"/>
+        <id>https://flightcomp.github.io/website/glide-computers.html</id>
+
+        <updated>2020-04-07T16:43:23+02:00</updated>
+            <summary>
+                <![CDATA[
+                    We’re going to talk about algorithms. The algorithms running into glide computers that proccess the data obtained from the different sensors to give you information about your climb/descent rate, glide ratio, wind speed and direction, thermal drift, best route, etc. All this information makes you&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>We’re going to talk about algorithms. The algorithms running into glide computers that proccess the data obtained from the different sensors to give you information about your climb/descent rate, glide ratio, wind speed and direction, thermal drift, best route, etc. All this information makes you fly safer and better.</p>
+<p>This algorithms are behind all glide computers in the market. From glide computers based on specific purpose hardware to glide computer software running on general purpose hardware like tablets, phones, e-readers.</p>
+<p>We think that a more in-depth understanding of the way these algorithms work will help you correctly use the information your glide computer gives to you.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
