@@ -3,31 +3,38 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-07T17:30:24+02:00</updated>
+    <updated>2020-04-07T22:11:41+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
     <id>https://flightcomp.github.io/website</id>
 
     <entry>
-        <title>Glide computing algorithms</title>
+        <title>Wind computing</title>
         <author>
             <name>Roberto Chao</name>
         </author>
         <link href="https://flightcomp.github.io/website/glide-computers.html"/>
         <id>https://flightcomp.github.io/website/glide-computers.html</id>
 
-        <updated>2020-04-07T16:43:23+02:00</updated>
+        <updated>2020-04-07T22:07:00+02:00</updated>
             <summary>
                 <![CDATA[
-                    We’re going to talk about algorithms. The algorithms running into glide computers that proccess the data obtained from the different sensors to give you information about your climb/descent rate, glide ratio, wind speed and direction, thermal drift, best route, etc. All this information makes you&hellip;
+                        <img src="https://flightcomp.github.io/website/media/posts/1/IMG-20170720-WA0007.jpg" alt="" />
+                    One of the main features of today glide computers is the estimation of wind, the speed and direction of the air mass inside we're moving (blue arrow). It's the base of other estimations like the required time and altitude to reach a waypoint. When we sum this vectorial magnitude&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>We’re going to talk about algorithms. The algorithms running into glide computers that proccess the data obtained from the different sensors to give you information about your climb/descent rate, glide ratio, wind speed and direction, thermal drift, best route, etc. All this information makes you fly safer and better.</p>
-<p>This algorithms are behind all glide computers in the market. From glide computers based on specific purpose hardware to glide computer software running on general purpose hardware like tablets, phones, e-readers.</p>
-<p>We think that a more in-depth understanding of the way these algorithms work will help you correctly use the information your glide computer gives to you.</p>
+                    <img src="https://flightcomp.github.io/website/media/posts/1/IMG-20170720-WA0007.jpg" alt="" />
+                <p class="dropcap">One of the main features of today glide computers is the estimation of wind, the speed and direction of the air mass inside we're moving (blue arrow). It's the base of other estimations like the required time and altitude to reach a waypoint. When we sum this vectorial magnitude to the airspeed (green arrow) we obtain the ground speed measured by the gps of the flight instrument (red arrow).<img class="post__image post__image--left" src="https://flightcomp.github.io/website/media/posts/1/Flechas2.png" alt="Vectorial sum" width="192" height="216"></p>
+<p>So the the procedure to obtain the wind is as simple as substract the air speed to the ground speed given by the gps. Some expensive glide instruments have a true airspeed probe but the vast majority don't. How the latter manage to estimate the wind speed and direction?</p>
+<p>In fact they don't estimate the instant wind speed and direction but an <em>average</em>. They make one more assumption. The airspeed, though unknown, is constant. Making this two assumptions and taking the ground speed measured by the gps in at least three different moments we can pose a resolvable system of equations.</p>
+<p>We don't want to bore you with the mathematical calculations. It's roughly similar to derive the geometric 3D plane from three points it passes through. When we add noise to the position of this three points, just as it happens with the gps data, and the points are near each other, the solution of the system of equations can lead us to a completely different plane. It's what we call an ill-posed problem. To avoid it we must take more than three points and make sure they are far enough from each other.<img class="post__image post__image--right" src="https://flightcomp.github.io/website/media/posts/1/Wind-blown-thermals-300x188.jpg" alt="Thermal drift" width="300" height="188"></p>
+<p>In the present case the latter means take the ground speed along a period of time in the wider range of directions of flight possible. That's why the glide computers better calculate wind when we make turns. Whe usually turn when we are thermaling. The stronger parts of the thermals have a stronger vertical vector, so we will almost always find the stronger bit of lift on the upwind side of a thermal.  Not only that, but in circling with a thermal it is often likely that we will tend to be pushed out the back of the thermal. This happens because we are always “falling” through the thermal.  So, whilst we might be climbing in lift we will still be sinking relative to the air around us.  For these two reasons, we speed up upwind from time to time to find the better lift or even just to stay with the core.</p>
+<p>Doing that we infringe the assumption of constant airspeed so the wind speed estimated by the glide computer can be below the average. Using the compass built in some glide computers and our algorithm we can correct this under estimation. </p>
+<p> </p>
+<p> </p>
             ]]>
         </content>
     </entry>
