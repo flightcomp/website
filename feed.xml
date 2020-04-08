@@ -3,7 +3,7 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-08T19:44:56+02:00</updated>
+    <updated>2020-04-08T19:47:54+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://flightcomp.github.io/website/glide-computers.html"/>
         <id>https://flightcomp.github.io/website/glide-computers.html</id>
 
-        <updated>2020-04-08T19:44:39+02:00</updated>
+        <updated>2020-04-08T19:47:32+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://flightcomp.github.io/website/media/posts/1/IMG-20170720-WA0007.jpg" alt="" />
@@ -33,7 +33,7 @@
 <p>We don't want to bore you with the mathematical calculations but they are roughly similar to derive the geometric 3D plane from three points it passes through. When we add noise to the position of this three points, just as it happens with the gps data, and the points are near each other, the solution of the system of equations can lead us to a completely different plane. It's what we call an ill-posed problem. To avoid it we must take more than three points and make sure they are far enough from each other.</p>
 <p>In the present case that means taking ground speed samples along a time window sufficiently long and in a wide range of directions of flight. However, if we take a time window too long it won't record variations in the average wind due to changes in the weather conditions or changes of the flight area. A time window of 10 min. is short enough to detect meteorological and geographical changes of wind in the scale of 5 km while still providing a reliable estimate.</p>
 <p>Nevertheless the wind also changes with altitude. Sometimes suddenly when we move from one air layer on to another one. At a climb rate of 2m/s during 10 min we can climb up 1200 m. Enough difference in altitude for the wind average to significantly change two or three times. If we use a 10 min. time window this changes will inadvertently pass because they will be averaged.</p>
-<p>Our algorithm uses a variable lenght time window and records the changes in wind speed and direction with the altitude.</p>
+<p>Our algorithm uses a variable lenght time window and records changes in wind speed and direction with the altitude.</p>
 <p> </p>
             ]]>
         </content>
