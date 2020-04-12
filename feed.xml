@@ -3,12 +3,39 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-08T19:47:54+02:00</updated>
+    <updated>2020-04-12T22:25:09+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
     <id>https://flightcomp.github.io/website</id>
 
+    <entry>
+        <title>Climb rate computing</title>
+        <author>
+            <name>Roberto Chao</name>
+        </author>
+        <link href="https://flightcomp.github.io/website/climb-rate-computing.html"/>
+        <id>https://flightcomp.github.io/website/climb-rate-computing.html</id>
+
+        <updated>2020-04-12T22:24:59+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://flightcomp.github.io/website/media/posts/2/kalman2.png" alt="" />
+                    To obtain the climb or descent rate we must take the derivative of the pressure signal with respect to time. In this article we're going to explore the problems of achieve this derivative with pressure data obtained from meteorological or first-fix gps purpose pressure sensors, some smartphones have built-in (Bosch&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://flightcomp.github.io/website/media/posts/2/kalman2.png" alt="" />
+                <p>To obtain the climb or descent rate we must take the derivative of the pressure signal with respect to time. In this article we're going to explore the problems of achieve this derivative with pressure data obtained from meteorological or first-fix gps purpose pressure sensors, some smartphones have built-in (Bosch Sensortec BMP180, BMP280).</p>
+<p>When used for free flight, the two most valuable features of a pressure sensor are bandwith and precission. Newest pressure sensors can reach standard precissions of about 5 cm. because they feature an internal IIR filter that, on the other hand, reduces bandwith well below 2 Hz. For flight purposes we need at least 5 Hz of bandwith and data sampling rates above 10 samples per second. Therefore we have to select a mode of operation that switches the IIR filter off raising precission to around 25 cm (0.03 hPa). If x[n] represents the noise signal added to the true pressure at the moment nT where T is de sampling period in seconds, the derivative of the pressure readings of a static sensor would be:</p>
+<p>$$y[n]=\frac{x[n+1]-x[n]}{T}$$</p>
+<p>Assuming uncorrelated noise, the standard deviation (RMS) of the derivative signal is:</p>
+<p>$$\sigma_y=\frac {{\sqrt 2} \sigma_x}{T}$$</p>
+<p>Which in the case above gives an unacceptable RMS error of 3.53 m/s in the climb/descent rate. Low pass pre-filtering of the pressure signal before making the derivative is not an option because a low-pass filter reduces bandwith and also adds delay.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Wind computing</title>
         <author>
