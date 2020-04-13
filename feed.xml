@@ -3,7 +3,7 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-13T16:23:22+02:00</updated>
+    <updated>2020-04-13T17:26:01+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://flightcomp.github.io/website/climb-rate-computing.html"/>
         <id>https://flightcomp.github.io/website/climb-rate-computing.html</id>
 
-        <updated>2020-04-13T16:23:17+02:00</updated>
+        <updated>2020-04-13T17:22:47+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://flightcomp.github.io/website/media/posts/2/kalman2.png" alt="" />
@@ -31,7 +31,7 @@
 <p>$$\frac{dp}{dh}=-\frac{g}{R*T} * p \to \frac{dh}{dt} = -\frac{dp}{dt}*\frac{R*T}{g*p}$$</p>
 <p>Derived from the hydrostatic equation and the ideal gas law, the basic physical equations used for modeling the atmosphere.</p>
 <p>In this article we're going to explore the problems of taking this derivative from pressure data obtained from meteorological or first-fix gps purpose pressure sensors, some smartphones have built-in (Bosch Sensortec BMP180, BMP280).</p>
-<p>When used for free flight, the two most valuable features of a pressure sensor are frequency bandwith and precission. Newest pressure sensors can reach standard precissions of about 5 cm. because they feature an internal IIR filter that, on the other hand, reduces bandwith well below 2 Hz. For flight purposes we need at least 5 Hz of frequency bandwith and data sampling rates above 10 samples per second. Therefore we have to select a mode of operation that switches the IIR filter off raising precission to around 25 cm (0.03 hPa). If x[n] represents the noise signal added to the true pressure at the moment nT where T is de sampling period in seconds, the derivative of the pressure readings of a static sensor would be:</p>
+<p>When used for free flight, the two most valuable features of a pressure sensor are frequency bandwith and precission. Newest pressure sensors improve precission in regard to oldest ones in some modes of operation because they feature an internal IIR filter that, on the other hand, reduces bandwith well below 2 Hz. For flight purposes we need at least 5 Hz of frequency bandwith and data sampling rates above 10 samples per second what makes this modes of operation unusable. Therefore we have to select a mode of operation that switches the IIR filter off raising precission to around 25 cm (0.03 hPa). If x[n] represents the noise signal added to the true pressure at the moment nT where T is de sampling period in seconds, the derivative of the pressure readings of a static sensor would be:</p>
 <p>$$y[n]=\frac{x[n+1]-x[n]}{T}$$</p>
 <p>Assuming uncorrelated noise, the standard deviation (RMS) of the derivative signal is:</p>
 <p>$$\sigma_y=\frac {{\sqrt 2} \sigma_x}{T}$$</p>
@@ -41,9 +41,9 @@
 <p>It's relatively straightforward to obtain the typical RMS of both sensors from their datasheets or we can get this values from experimental data. Analysing data collected from the BMA220 accelerometer we can confirm that RMS noise is ten times smaller than that of the barometer BMP180 in the same smartphone. Furthermore we have detected a zero-point error of 0.1 m/s<sup>2</sup>. This states the importance of calibrating phone sensors before making any measurement. There are a lot of apps that perform this calibration proccess or you can run a calibration inside your flight app.</p>
 <p><img class="post__image post__image--center" src="https://flightcomp.github.io/website/media/posts/2/magneto_dynamic.png" width="1853" height="1025"></p>
 <p>The upper graph in the figure above represents the altitude output of the kalman filter (red solid line) superimposed to the data got from the barometer (black line). The lower graph represents the vertical speed output of the kalman filter superimposed to the data got from the accelerometer when we lift the phone two meters from the floor. Almost perfect!</p>
-<p>Howerver when we simulate strong climb/descent rates, severe inaccuracies in the accelerometer make their appareance causing unacceptable drift in the altitude signal, and rebounds in the vertical speed signal. See the figure below.</p>
+<p>However when we simulate strong climb/descent rates, severe inaccuracies in the accelerometer make their appareance leading to unacceptable drift in the altitude signal, and rebounds in the vertical speed signal. See the figure below.</p>
 <p><img class="post__image post__image--center" src="https://flightcomp.github.io/website/media/posts/2/kalman_fails.png" width="1853" height="1025"></p>
-<p>Reducing the weight of the accelerometer readings over over the barometer readings we can reduce the drift and rebounds but we increase the noise. See the next figure.</p>
+<p>Reducing the weight of the accelerometer readings over the barometer readings we  reduce drift and rebounds but we increase noise. See the figure below.</p>
 <p><img class="post__image post__image--center" src="https://flightcomp.github.io/website/media/posts/2/kalman_fails2.png" alt="" width="1853" height="1025"></p>
 <p class="msg msg--success">The blue line corresponds to the output of our optimized algorithm. Using it we can reduce RMS noise in the vertical speed to 0.07 m/s with a fairly acceptable delay.</p>
             ]]>
