@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://flightcomp.github.io/website/climb-rate-computing.html</loc>
-<lastmod>2020-04-13T23:49:04+02:00</lastmod>
+<lastmod>2020-04-14T20:10:09+02:00</lastmod>
 <image:image>
 <image:loc>https://flightcomp.github.io/website/media/posts/2/kalman2.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -17,6 +17,10 @@
 </image:image>
 <image:image>
 <image:loc>https://flightcomp.github.io/website/media/posts/2/kalman_fails.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://flightcomp.github.io/website/media/posts/2/Centripetal.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
@@ -38,7 +42,7 @@
 </url>
 <url>
 <loc>https://flightcomp.github.io/website/vario-averager.html</loc>
-<lastmod>2020-04-13T23:57:20+02:00</lastmod>
+<lastmod>2020-04-14T14:31:34+02:00</lastmod>
 <image:image>
 <image:loc>https://flightcomp.github.io/website/media/posts/3/maxresdefault.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
