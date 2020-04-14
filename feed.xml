@@ -3,7 +3,7 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-14T21:18:46+02:00</updated>
+    <updated>2020-04-14T21:27:21+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
@@ -48,7 +48,7 @@
         <link href="https://flightcomp.github.io/website/climb-rate-computing.html"/>
         <id>https://flightcomp.github.io/website/climb-rate-computing.html</id>
 
-        <updated>2020-04-14T20:10:09+02:00</updated>
+        <updated>2020-04-14T21:27:14+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://flightcomp.github.io/website/media/posts/2/kalman2.png" alt="" />
@@ -76,8 +76,8 @@
 <p>The upper graph in the figure above represents the altitude output of the kalman filter (red solid line) superimposed to the data got from the barometer (black line). The lower graph represents the vertical speed output of the kalman filter superimposed to the data got from the accelerometer when we lift the phone two meters from the floor. Almost perfect!</p>
 <p>However when we simulate strong climb/descent rates, severe inaccuracies in the accelerometer make their appareance leading to unacceptable drift in the altitude signal, and rebounds in the vertical speed signal. See the figure below.</p>
 <p><img class="post__image post__image--center" src="https://flightcomp.github.io/website/media/posts/2/kalman_fails.png" width="1853" height="1025"></p>
+<p><img class="post__image post__image--left" src="https://flightcomp.github.io/website/media/posts/2/Centripetal.png" width="791" height="697"></p>
 <p>There's one more problem in trusting the accelerometer so much: The centrifugal forces generated during a turn with banking change the direction of the gravity force and sum to it making up an apparent load like when you are climbing. </p>
-<p><img class="post__image post__image--center" src="https://flightcomp.github.io/website/media/posts/2/Centripetal.png" alt="" width="791" height="697"></p>
 <p>Lowering the weight of the accelerometer readings over the barometer readings we  reduce drift and rebounds but we increase noise. See the figure below.</p>
 <p><img class="post__image post__image--center" src="https://flightcomp.github.io/website/media/posts/2/kalman_fails2.png" alt="" width="1853" height="1025"></p>
 <p class="msg msg--success">The blue line corresponds to the output of our optimized algorithm. Using it we can reduce RMS noise in the vertical speed to 0.07 m/s with a fairly acceptable delay.</p>
