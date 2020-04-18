@@ -3,7 +3,7 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-18T17:04:44+02:00</updated>
+    <updated>2020-04-18T17:38:21+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
@@ -29,7 +29,7 @@
         <link href="https://flightcomp.github.io/website/total-energy-compensated-variometer.html"/>
         <id>https://flightcomp.github.io/website/total-energy-compensated-variometer.html</id>
 
-        <updated>2020-04-18T16:58:02+02:00</updated>
+        <updated>2020-04-18T17:27:53+02:00</updated>
             <summary>
                 <![CDATA[
                     The Total Energy variometer of a glider takes into account the dynamic energy exchanges with the atmosphere. Unfortunately glider pilots take them erroneously as resulting from an effective vertical speed of the air. Consequently, their indications of dynamic energy exchanges are gathered together and delayed.
@@ -42,13 +42,21 @@
 </blockquote>
 <h4 id="mcetoc_1e66lelnj0">How a TE Variometer works</h4>
 <p>While rate of climb indicators show altitude changes and hence changes in the potential energy of the sailplane, total-energy variometers indicate changes in the total energy of the sailplane, that is, both its potential energy (due to altitude) and its kinetic energy (due to airspeed). The great advantage of the total-energy variometer is that airspeed changes, which are basically exchanges between E<sub>kin</sub>, and E<sub>pot</sub> , are no longer dis­played. Thus, we can read if we gain or lose energy even if we are slowing or accelerating. This makes it much simpler to locate lift as "energy-increase areas."</p>
-<p>The picture below represents two points of the polar curve of a glider. When we increase the speed of our glider in still air we move from point V1 to point V2 following the blue line and not the polar curve line. The glider follows the constant total energy curve. The glider has to loose height to increase its kinetic energy. A normal vario will indicate an "extra" descent rate as if we were in sinking air. </p>
+<p>The picture below represents two points of the polar curve of a glider. When we increase the speed of our glider in still air we move from point V<sub>1</sub> to point V<sub>2</sub> following the blue line and not the polar curve line. The glider follows the constant total energy curve. The glider has to loose height to increase its kinetic energy. A normal vario will indicate an "extra" descent rate as if we were in sinking air. </p>
 <p><img class="post__image post__image--center" src="https://flightcomp.github.io/website/media/posts/7/tecompensation.png" alt="" width="873" height="496"></p>
 <p>When we decrease speed we move in the opposite direction algong the red line. A normal vario will detect a fictitious upward vertical motion of air. A TE vario discounts the changes in kinetic energy from the climb/rate descents making the travel through the polar curve line.</p>
 <h4 id="mcetoc_1e66n49hm1">Horizontally moving air</h4>
 <p>Unfortunately there is another kind of influence on total energy imposed by the atmosphere: the gain or loss of kinetic energy by a sudden increase or decrease of the aircraft's velocity with reference to air by horizontal gusts or wind shear.</p>
 <p>Every pilot know the effect of the wind gradient on landing. The glider is descending into a decreasing headwind caused by friction between the wind and the surface. The result is a decrease in airspeed and sink rate may increase significantly to regain airspeed or in an extreme case the glider may stall. Even worse if turning too steeply on final approach. There is less wind across the lower wing than across the higher wing and may roll the glider past a vertical bank.</p>
 <p>A headwind gust causes the opposite effect. Airspeed increases so there's a kinetic energy gain. This jump in "energy" is seen by the TE variometer exactly the same way as if the glider had made an equivalent jump in altitude at constant velocity. The TE variometer cannot discriminate between the two sorts of energy change. Shortly after the glider will restore its previous airspeed causing a jump of dH=1/G x V x dV, and so a climb rate change indicated by the normal vario, leading the pilot into believing that he's entering a thermal.</p>
+<h4 id="mcetoc_1e66u78sr0">Read more:</h4>
+<address> </address>
+<ol>
+<li>François Ragot. Unsuitability of existing TE variometers for dynamic soaring. OSTIV Congress 1981.</li>
+<li>Rudolf Brözel. Total energy Kompensation. September 1985.</li>
+<li>Taras Kiceniuk. A variometer for dynamic soaring. Technical Soaring, volume 25, number 4, October 2001.</li>
+<li>François Ragot. Best speed story, page 12, left column, Technical Soaring, volume 28, Numbers 1 /2, January/April 2004.</li>
+</ol>
 <p> </p>
 <p> </p>
             ]]>
@@ -86,7 +94,7 @@
         <link href="https://flightcomp.github.io/website/flight-collision-avoidance.html"/>
         <id>https://flightcomp.github.io/website/flight-collision-avoidance.html</id>
 
-        <updated>2020-04-18T01:43:41+02:00</updated>
+        <updated>2020-04-18T17:31:33+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://flightcomp.github.io/website/media/posts/4/IMG_20140712_144418.jpg" alt="" />
@@ -146,7 +154,7 @@
         <link href="https://flightcomp.github.io/website/climb-rate-computing.html"/>
         <id>https://flightcomp.github.io/website/climb-rate-computing.html</id>
 
-        <updated>2020-04-18T00:52:09+02:00</updated>
+        <updated>2020-04-18T17:35:33+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://flightcomp.github.io/website/media/posts/2/kalman2.png" alt="" />
@@ -183,14 +191,14 @@
         </content>
     </entry>
     <entry>
-        <title>Average wind computing</title>
+        <title>Wing average computing</title>
         <author>
             <name>Roberto Chao</name>
         </author>
         <link href="https://flightcomp.github.io/website/glide-computers.html"/>
         <id>https://flightcomp.github.io/website/glide-computers.html</id>
 
-        <updated>2020-04-18T17:04:11+02:00</updated>
+        <updated>2020-04-18T17:37:02+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://flightcomp.github.io/website/media/posts/1/IMG-20170720-WA0007.jpg" alt="" />
