@@ -6,7 +6,7 @@
     "feed_url": "https://flightcomp.github.io/website/feed.json",
     "user_comment": "",
     "author": {
-        "name": "Roberto Chao"
+        "name": "Aitor Castro"
     },
     "items": [
         {
@@ -16,7 +16,7 @@
             "summary": "The disadvantages of the tradicional way to gauge the altimeter, wich is to enter the QNH pressure value, is that this value varies with both position and time. QNH can change in more than 5 hPa (50 mts.) along the day or between places more&hellip;",
             "content_html": "<blockquote>\n<p>The disadvantages of the tradicional way to gauge the altimeter, wich is to enter the QNH pressure value, is that this value varies with both position and time. QNH can change in more than 5 hPa (50 mts.) along the day or between places more than 50 km apart from each other so it should be continuously updated from radio weather reports. If you don't have access to this radio link your can gauge the altimeter with the GPS readings but that involves more complex calculations.</p>\n</blockquote>\n<p>The formula to obtain the altitude over sea level from pressure is derived from the equations seen in our past post.</p>\n<p>$$h=-\\frac{T_0}{L} * \\left[ 1- \\left(\\frac{p}{QNH}\\right)^{-\\frac{L*R}{g}}\\right]$$</p>\n<p>With a QNH=1035 hPa at a GPS altitude of H=2000 m. the altitude indicated by an uncalibrated altimeter (QNH = 1013.25 hPa) is h=1828.6 mts. so the average of the difference beween the altitude indicated by the two sensors:</p>\n<p>$$\\Delta h = \\sum_{i=0}^n \\frac {H_i-h_i}{n}$$</p>\n<p>Will converge to the target <strong>Δh=171.4 mts</strong> as n increases, despite the GPS noise in altitude. The larger the noise in GPS altitude readings the more GPS fixes we'll need. Fortunately the rate of change of Δh is slow (changes with QNH) so we could take GPS fixes over a large period of time (e.g. 20 minutes) to obtain an accurate estimation.</p>\n<p>The big problem is that the rate of change of Δh is not slow because it also depends on altitude and our glider is constantly going up and down. With the same QNH=1035 hPa at a GPS altitude of H=2500 m. the altitude indicated by the uncalibrated altimeter is h=2330.6 mts. so <strong>Δh=169.4 mts.</strong></p>\n<p> </p>\n<p> </p>",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -28,7 +28,7 @@
             "url": "https://flightcomp.github.io/website/the-influence-of-air-density.html",
             "title": "The influence of air density",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -40,7 +40,7 @@
             "url": "https://flightcomp.github.io/website/the-impact-of-wing-load.html",
             "title": "The influence of wing load",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -52,7 +52,7 @@
             "url": "https://flightcomp.github.io/website/smartphone-glide-computer.html",
             "title": "Screenless glide computer",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -64,7 +64,7 @@
             "url": "https://flightcomp.github.io/website/speed-to-fly.html",
             "title": "Speed to fly",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -78,7 +78,7 @@
             "summary": "The Total Energy variometer of a glider takes into account the dynamic energy exchanges with the atmosphere. Unfortunately glider pilots take them erroneously as resulting from an effective vertical speed of the air. Consequently, their indications of dynamic energy exchanges are gathered together and delayed.",
             "content_html": "<blockquote>\n<p>The Total Energy variometer of a glider takes into account the dynamic energy exchanges with the atmosphere. Unfortunately glider pilots take them erroneously as resulting from an effective vertical speed of the air. Consequently, their indications of dynamic energy exchanges are gathered together and delayed. As a result, both effects mislead the accurate information necessary for an optimal location of thermals.</p>\n</blockquote>\n<h4 id=\"mcetoc_1e66lelnj0\">How a TE Variometer works</h4>\n<p>While rate of climb indicators show altitude changes and hence changes in the potential energy of the sailplane, total-energy variometers indicate changes in the total energy of the sailplane, that is, both its potential energy (due to altitude) and its kinetic energy (due to airspeed). The great advantage of the total-energy variometer is that airspeed changes, which are basically exchanges between E<sub>kin</sub>, and E<sub>pot</sub> , are no longer dis­played. Thus, we can read if we gain or lose energy even if we are slowing or accelerating. This makes it much simpler to locate lift as \"energy-increase areas.\"</p>\n<p>The picture below represents two points of the polar curve of a glider. When we increase the speed of our glider in still air we move from point V<sub>1</sub> to point V<sub>2</sub> following the blue line and not the polar curve line. The glider follows the constant total energy curve. The glider has to loose height to increase its kinetic energy. A normal vario will indicate an \"extra\" descent rate as if we were in sinking air. </p>\n<p><img class=\"post__image post__image--center\" src=\"https://flightcomp.github.io/website/media/posts/7/tecompensation.png\" alt=\"\" width=\"873\" height=\"496\"></p>\n<p>When we decrease speed we move in the opposite direction algong the red line. A normal vario will detect a fictitious upward vertical motion of air. A TE vario discounts the changes in kinetic energy from the climb/descent indication making the travel through the polar curve line.</p>\n<h4 id=\"mcetoc_1e66n49hm1\">Horizontally moving air</h4>\n<p>Unfortunately there is another kind of influence on total energy imposed by the atmosphere: the gain or loss of kinetic energy by a sudden increase or decrease of the aircraft's velocity with reference to air by horizontal gusts or wind shear.</p>\n<p>Every pilot know the effect of the wind gradient on landing. The glider is descending into a decreasing headwind caused by friction between the wind and the surface. The result is a decrease in airspeed and sink rate may increase significantly to regain airspeed or in an extreme case the glider may stall. Even worse if turning too steeply on final approach. There is less wind across the lower wing than across the higher wing and may roll the glider past a vertical bank.</p>\n<p>A headwind gust causes the opposite effect. Airspeed increases so there's a kinetic energy gain. This jump in \"energy\" is seen by the TE variometer exactly the same way as if the glider had made an equivalent jump in altitude at constant velocity. The TE variometer cannot discriminate between the two sorts of energy change. Shortly after the glider will restore its previous airspeed causing a jump of dH=1/G x V x dV, and so a climb rate change indicated by the normal vario, leading the pilot into believing that he's entering a thermal.</p>\n<h4 id=\"mcetoc_1e66u78sr0\">Read more:</h4>\n<address> </address>\n<ol>\n<li>François Ragot. Unsuitability of existing TE variometers for dynamic soaring. OSTIV Congress 1981.</li>\n<li>Rudolf Brözel. Total energy Kompensation. September 1985.</li>\n<li>Taras Kiceniuk. A variometer for dynamic soaring. Technical Soaring, volume 25, number 4, October 2001.</li>\n<li>François Ragot. Best speed story, page 12, left column, Technical Soaring, volume 28, Numbers 1 /2, January/April 2004.</li>\n</ol>\n<p> </p>\n<p> </p>",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -90,7 +90,7 @@
             "url": "https://flightcomp.github.io/website/thermal-hunters.html",
             "title": "Thermal hunters",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -102,7 +102,7 @@
             "url": "https://flightcomp.github.io/website/paragliders-and-airspeed-probes.html",
             "title": "Paragliders and airspeed probes",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -117,7 +117,7 @@
             "content_html": "<blockquote>\n<p>Every year, around 40 aircraft are involved in a mid-air collision. Unfortunately, half of these are fatal. Surprisingly, most of these accidents happen in good visibility and daylight. Accident investigations have shown that the VFR-principle of “see and avoid” is not sufficient. In this increasingly crowded airspace paraglider pilots cannot afford to ignore this problem because we're the most vulnerables.</p>\n</blockquote>\n<p>More than once you may have noted how difficult it is to find your flight buddie when you lose the sight of him during a cross country flight. The same applies to a sailplane, a helicopter, a drone or a hanglider: they can't see you. We should not say anything of airplanes because your are supposed to avoid the air space reseved for them. Although sometimes, ocasionally the problem can come from they don't respecting your airspace. Anyway, even if you could see them, the limited maneuverability of a paraglider would make it very dificult not only avoid a collision but to assure enough clearance to avoid the turbulence created by the other aircraft. We should find a way to become more visible to the rest of airships that share our airspace.</p>\n<p>Primary surveillance radar, ADS-B, ELS, EHS transponders are surveillance systems mandatory for IFR heavy aircrafts. FLARM is the emerging technology that attempts to fill the regulatory void for light aircraft. Over 40,000 manned aircraft and many UAVs are already equipped with FLARM and the number is rapidly increasing. FLARM systems are available from several manufacturers for powered airplanes, helicopters, gliders, and UAVs.</p>\n<p>FLARM works by calculating and broadcasting its own future flight path to nearby aircraft. At the same time, it receives the future flight path from surrounding aircraft. An intelligent motion prediction algorithm calculates a collision risk for each aircraft based on an integrated risk model. When a collision is imminent, the pilots are alerted with the relative position of the intruder, enabling them to avoid a collision. </p>\n<p>The obstacle database upgrades the FLARM system to also warn about imminent obstacle collisions with fixed objects such as cable railways, power lines or antenna masts stored in the database.</p>\n<p>There are several FLARM certified flight instruments suitable for hang gliding and paragliding and several more are on the horizon. Oudie from Naviter and XC Tracer have prices ranging from 400€ to 800€ depending on its features. Their RF receivers can cover distances of up to 30 km.</p>\n<p class=\"msg--highlight msg--warning\">But here we can talk about a low cost but high quality module: Primer Edition MKII is a DIY module based on the TTGO T-Beam board with LoRa chip which is available for direct purchase at a price of 25€. The firmware SoftRF has been developed as an open source project by Linar Yusupov on github.</p>\n<p><img class=\"post__image post__image--center\" src=\"https://flightcomp.github.io/website/media/posts/4/H27784f17ac5f449db96ab456facc2198w.jpg\" width=\"1000\" height=\"1000\"></p>\n<p>LoRa is a wireless data communication technology that uses a radio modulation technique that can be generated by Semtech LoRa transceiver chips. It can communicate and receive different popular protocols including FLARM, OGNTP, FANET and the Skytraxx protocol. FLARM and OGNTP seem to be very “wide known” in smaller aircrafts, such as gliders and motorplanes, balloons etc. The TTGO T-Beam board has also bluetooth and wifi to connect to your favourite flight app XCSoar, LK8000, FlySkyHy through FLARM NMEA sentences.</p>\n<p> </p>",
             "image": "https://flightcomp.github.io/website/media/posts/4/IMG_20140712_144418.jpg",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],
@@ -132,7 +132,7 @@
             "content_html": "<blockquote>\n<p>The vario averager is an extra functionality of some variometers that helps when you are dealing with broken thermals.</p>\n</blockquote>\n<p>As the name already indicates, this function calculates the climb rate average over a period of time. Although you were sinking, the variometer would continue beeping, probably in a somewhat different manner, until the average climb rate becomes negative. It's the same as saying: \"until the altitude gain during the interval becomes negative\"</p>\n<p>How do we choose the length of this time interval? If you're turning into a thermal the time interval should be equal to the time spent in doing a full turn. The vario will encourage you to keep turning if the altitude gain in a complete turn is positive and leave if we lose altitude before completing the turn. </p>\n<p>When the thermal reaches an inversion layer climb rate is weaker or doesn't exist and you turn wide. A long time interval would will encourage you to stay. On the other hand when the thermal is small and strong, you turn tight and a long time interval will prevent you from detect in time when you fall out of the thermal.</p>\n<p class=\"msg msg--highlight \">Thus to make things clear the interval should vary depending on the turn radius which is not the case in most modern flight instruments. </p>",
             "image": "https://flightcomp.github.io/website/media/posts/3/maxresdefault.jpg",
             "author": {
-                "name": "Roberto Chao"
+                "name": "Aitor Castro"
             },
             "tags": [
             ],

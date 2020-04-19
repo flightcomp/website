@@ -3,16 +3,16 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-19T16:32:11+02:00</updated>
+    <updated>2020-04-19T17:50:43+02:00</updated>
     <author>
-        <name>Roberto Chao</name>
+        <name>Aitor Castro</name>
     </author>
     <id>https://flightcomp.github.io/website</id>
 
     <entry>
         <title>Altimeter calibration</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/altimeter-calibration.html"/>
         <id>https://flightcomp.github.io/website/altimeter-calibration.html</id>
@@ -42,7 +42,7 @@
     <entry>
         <title>The influence of air density</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/the-influence-of-air-density.html"/>
         <id>https://flightcomp.github.io/website/the-influence-of-air-density.html</id>
@@ -54,7 +54,7 @@
     <entry>
         <title>The influence of wing load</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/the-impact-of-wing-load.html"/>
         <id>https://flightcomp.github.io/website/the-impact-of-wing-load.html</id>
@@ -66,7 +66,7 @@
     <entry>
         <title>Screenless glide computer</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/smartphone-glide-computer.html"/>
         <id>https://flightcomp.github.io/website/smartphone-glide-computer.html</id>
@@ -78,7 +78,7 @@
     <entry>
         <title>Speed to fly</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/speed-to-fly.html"/>
         <id>https://flightcomp.github.io/website/speed-to-fly.html</id>
@@ -90,7 +90,7 @@
     <entry>
         <title>Unreliability of TE variometers in horizontally moving air</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/total-energy-compensated-variometer.html"/>
         <id>https://flightcomp.github.io/website/total-energy-compensated-variometer.html</id>
@@ -131,7 +131,7 @@
     <entry>
         <title>Thermal hunters</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/thermal-hunters.html"/>
         <id>https://flightcomp.github.io/website/thermal-hunters.html</id>
@@ -143,7 +143,7 @@
     <entry>
         <title>Paragliders and airspeed probes</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/paragliders-and-airspeed-probes.html"/>
         <id>https://flightcomp.github.io/website/paragliders-and-airspeed-probes.html</id>
@@ -155,7 +155,7 @@
     <entry>
         <title>Flight collision avoidance</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/flight-collision-avoidance.html"/>
         <id>https://flightcomp.github.io/website/flight-collision-avoidance.html</id>
@@ -188,7 +188,7 @@
     <entry>
         <title>Smart vario averager</title>
         <author>
-            <name>Roberto Chao</name>
+            <name>Aitor Castro</name>
         </author>
         <link href="https://flightcomp.github.io/website/vario-averager.html"/>
         <id>https://flightcomp.github.io/website/vario-averager.html</id>
