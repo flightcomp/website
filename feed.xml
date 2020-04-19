@@ -3,7 +3,7 @@
     <title>Flight Computing</title>
     <link href="https://flightcomp.github.io/website/feed.xml" rel="self" />
     <link href="https://flightcomp.github.io/website" />
-    <updated>2020-04-19T13:10:17+02:00</updated>
+    <updated>2020-04-19T16:32:11+02:00</updated>
     <author>
         <name>Roberto Chao</name>
     </author>
@@ -17,9 +17,27 @@
         <link href="https://flightcomp.github.io/website/altimeter-calibration.html"/>
         <id>https://flightcomp.github.io/website/altimeter-calibration.html</id>
 
-        <updated>2020-04-19T11:47:15+02:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2020-04-19T16:32:04+02:00</updated>
+            <summary>
+                <![CDATA[
+                    The disadvantages of the tradicional way to gauge the altimeter, wich is to enter the QNH pressure value, is that this value varies with both position and time. QNH can change in more than 5 hPa (50 mts.) along the day or between places more&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <blockquote>
+<p>The disadvantages of the tradicional way to gauge the altimeter, wich is to enter the QNH pressure value, is that this value varies with both position and time. QNH can change in more than 5 hPa (50 mts.) along the day or between places more than 50 km apart from each other so it should be continuously updated from radio weather reports. If you don't have access to this radio link your can gauge the altimeter with the GPS readings but that involves more complex calculations.</p>
+</blockquote>
+<p>The formula to obtain the altitude over sea level from pressure is derived from the equations seen in our past post.</p>
+<p>$$h=-\frac{T_0}{L} * \left[ 1- \left(\frac{p}{QNH}\right)^{-\frac{L*R}{g}}\right]$$</p>
+<p>With a QNH=1035 hPa at a GPS altitude of H=2000 m. the altitude indicated by an uncalibrated altimeter (QNH = 1013.25 hPa) is h=1828.6 mts. so the average of the difference beween the altitude indicated by the two sensors:</p>
+<p>$$\Delta h = \sum_{i=0}^n \frac {H_i-h_i}{n}$$</p>
+<p>Will converge to the target <strong>Δh=171.4 mts</strong> as n increases, despite the GPS noise in altitude. The larger the noise in GPS altitude readings the more GPS fixes we'll need. Fortunately the rate of change of Δh is slow (changes with QNH) so we could take GPS fixes over a large period of time (e.g. 20 minutes) to obtain an accurate estimation.</p>
+<p>The big problem is that the rate of change of Δh is not slow because it also depends on altitude and our glider is constantly going up and down. With the same QNH=1035 hPa at a GPS altitude of H=2500 m. the altitude indicated by the uncalibrated altimeter is h=2330.6 mts. so <strong>Δh=169.4 mts.</strong></p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>The influence of air density</title>

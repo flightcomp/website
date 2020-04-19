@@ -13,13 +13,15 @@
             "id": "https://flightcomp.github.io/website/altimeter-calibration.html",
             "url": "https://flightcomp.github.io/website/altimeter-calibration.html",
             "title": "Altimeter calibration",
+            "summary": "The disadvantages of the tradicional way to gauge the altimeter, wich is to enter the QNH pressure value, is that this value varies with both position and time. QNH can change in more than 5 hPa (50 mts.) along the day or between places more&hellip;",
+            "content_html": "<blockquote>\n<p>The disadvantages of the tradicional way to gauge the altimeter, wich is to enter the QNH pressure value, is that this value varies with both position and time. QNH can change in more than 5 hPa (50 mts.) along the day or between places more than 50 km apart from each other so it should be continuously updated from radio weather reports. If you don't have access to this radio link your can gauge the altimeter with the GPS readings but that involves more complex calculations.</p>\n</blockquote>\n<p>The formula to obtain the altitude over sea level from pressure is derived from the equations seen in our past post.</p>\n<p>$$h=-\\frac{T_0}{L} * \\left[ 1- \\left(\\frac{p}{QNH}\\right)^{-\\frac{L*R}{g}}\\right]$$</p>\n<p>With a QNH=1035 hPa at a GPS altitude of H=2000 m. the altitude indicated by an uncalibrated altimeter (QNH = 1013.25 hPa) is h=1828.6 mts. so the average of the difference beween the altitude indicated by the two sensors:</p>\n<p>$$\\Delta h = \\sum_{i=0}^n \\frac {H_i-h_i}{n}$$</p>\n<p>Will converge to the target <strong>Δh=171.4 mts</strong> as n increases, despite the GPS noise in altitude. The larger the noise in GPS altitude readings the more GPS fixes we'll need. Fortunately the rate of change of Δh is slow (changes with QNH) so we could take GPS fixes over a large period of time (e.g. 20 minutes) to obtain an accurate estimation.</p>\n<p>The big problem is that the rate of change of Δh is not slow because it also depends on altitude and our glider is constantly going up and down. With the same QNH=1035 hPa at a GPS altitude of H=2500 m. the altitude indicated by the uncalibrated altimeter is h=2330.6 mts. so <strong>Δh=169.4 mts.</strong></p>\n<p> </p>\n<p> </p>",
             "author": {
                 "name": "Roberto Chao"
             },
             "tags": [
             ],
             "date_published": "2020-04-19T11:47:15+02:00",
-            "date_modified": "2020-04-19T11:47:15+02:00"
+            "date_modified": "2020-04-19T16:32:04+02:00"
         },
         {
             "id": "https://flightcomp.github.io/website/the-influence-of-air-density.html",
