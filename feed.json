@@ -10,6 +10,54 @@
     },
     "items": [
         {
+            "id": "https://flightcomp.github.io/website/altimeter-calibration.html",
+            "url": "https://flightcomp.github.io/website/altimeter-calibration.html",
+            "title": "Altimeter calibration",
+            "author": {
+                "name": "Roberto Chao"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-19T11:47:15+02:00",
+            "date_modified": "2020-04-19T11:47:15+02:00"
+        },
+        {
+            "id": "https://flightcomp.github.io/website/the-influence-of-air-density.html",
+            "url": "https://flightcomp.github.io/website/the-influence-of-air-density.html",
+            "title": "The influence of air density",
+            "author": {
+                "name": "Roberto Chao"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-19T11:46:30+02:00",
+            "date_modified": "2020-04-19T11:46:30+02:00"
+        },
+        {
+            "id": "https://flightcomp.github.io/website/the-impact-of-wing-load.html",
+            "url": "https://flightcomp.github.io/website/the-impact-of-wing-load.html",
+            "title": "The influence of wing load",
+            "author": {
+                "name": "Roberto Chao"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-19T11:45:36+02:00",
+            "date_modified": "2020-04-19T12:44:42+02:00"
+        },
+        {
+            "id": "https://flightcomp.github.io/website/smartphone-glide-computer.html",
+            "url": "https://flightcomp.github.io/website/smartphone-glide-computer.html",
+            "title": "Screenless glide computer",
+            "author": {
+                "name": "Roberto Chao"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-04-19T11:21:43+02:00",
+            "date_modified": "2020-04-19T11:22:22+02:00"
+        },
+        {
             "id": "https://flightcomp.github.io/website/speed-to-fly.html",
             "url": "https://flightcomp.github.io/website/speed-to-fly.html",
             "title": "Speed to fly",
@@ -24,16 +72,16 @@
         {
             "id": "https://flightcomp.github.io/website/total-energy-compensated-variometer.html",
             "url": "https://flightcomp.github.io/website/total-energy-compensated-variometer.html",
-            "title": "Unreliability of TE variometers in horizontally wind gusts",
+            "title": "Unreliability of TE variometers in horizontally moving air",
             "summary": "The Total Energy variometer of a glider takes into account the dynamic energy exchanges with the atmosphere. Unfortunately glider pilots take them erroneously as resulting from an effective vertical speed of the air. Consequently, their indications of dynamic energy exchanges are gathered together and delayed.",
-            "content_html": "<blockquote>\n<p>The Total Energy variometer of a glider takes into account the dynamic energy exchanges with the atmosphere. Unfortunately glider pilots take them erroneously as resulting from an effective vertical speed of the air. Consequently, their indications of dynamic energy exchanges are gathered together and delayed. As a result, both effects mislead the accurate information necessary for an optimal location of thermals.</p>\n</blockquote>\n<h4 id=\"mcetoc_1e66lelnj0\">How a TE Variometer works</h4>\n<p>While rate of climb indicators show altitude changes and hence changes in the potential energy of the sailplane, total-energy variometers indicate changes in the total energy of the sailplane, that is, both its potential energy (due to altitude) and its kinetic energy (due to airspeed). The great advantage of the total-energy variometer is that airspeed changes, which are basically exchanges between E<sub>kin</sub>, and E<sub>pot</sub> , are no longer dis­played. Thus, we can read if we gain or lose energy even if we are slowing or accelerating. This makes it much simpler to locate lift as \"energy-increase areas.\"</p>\n<p>The picture below represents two points of the polar curve of a glider. When we increase the speed of our glider in still air we move from point V<sub>1</sub> to point V<sub>2</sub> following the blue line and not the polar curve line. The glider follows the constant total energy curve. The glider has to loose height to increase its kinetic energy. A normal vario will indicate an \"extra\" descent rate as if we were in sinking air. </p>\n<p><img class=\"post__image post__image--center\" src=\"https://flightcomp.github.io/website/media/posts/7/tecompensation.png\" alt=\"\" width=\"873\" height=\"496\"></p>\n<p>When we decrease speed we move in the opposite direction algong the red line. A normal vario will detect a fictitious upward vertical motion of air. A TE vario discounts the changes in kinetic energy from the climb/rate descents making the travel through the polar curve line.</p>\n<h4 id=\"mcetoc_1e66n49hm1\">Horizontally moving air</h4>\n<p>Unfortunately there is another kind of influence on total energy imposed by the atmosphere: the gain or loss of kinetic energy by a sudden increase or decrease of the aircraft's velocity with reference to air by horizontal gusts or wind shear.</p>\n<p>Every pilot know the effect of the wind gradient on landing. The glider is descending into a decreasing headwind caused by friction between the wind and the surface. The result is a decrease in airspeed and sink rate may increase significantly to regain airspeed or in an extreme case the glider may stall. Even worse if turning too steeply on final approach. There is less wind across the lower wing than across the higher wing and may roll the glider past a vertical bank.</p>\n<p>A headwind gust causes the opposite effect. Airspeed increases so there's a kinetic energy gain. This jump in \"energy\" is seen by the TE variometer exactly the same way as if the glider had made an equivalent jump in altitude at constant velocity. The TE variometer cannot discriminate between the two sorts of energy change. Shortly after the glider will restore its previous airspeed causing a jump of dH=1/G x V x dV, and so a climb rate change indicated by the normal vario, leading the pilot into believing that he's entering a thermal.</p>\n<h4 id=\"mcetoc_1e66u78sr0\">Read more:</h4>\n<address> </address>\n<ol>\n<li>François Ragot. Unsuitability of existing TE variometers for dynamic soaring. OSTIV Congress 1981.</li>\n<li>Rudolf Brözel. Total energy Kompensation. September 1985.</li>\n<li>Taras Kiceniuk. A variometer for dynamic soaring. Technical Soaring, volume 25, number 4, October 2001.</li>\n<li>François Ragot. Best speed story, page 12, left column, Technical Soaring, volume 28, Numbers 1 /2, January/April 2004.</li>\n</ol>\n<p> </p>\n<p> </p>",
+            "content_html": "<blockquote>\n<p>The Total Energy variometer of a glider takes into account the dynamic energy exchanges with the atmosphere. Unfortunately glider pilots take them erroneously as resulting from an effective vertical speed of the air. Consequently, their indications of dynamic energy exchanges are gathered together and delayed. As a result, both effects mislead the accurate information necessary for an optimal location of thermals.</p>\n</blockquote>\n<h4 id=\"mcetoc_1e66lelnj0\">How a TE Variometer works</h4>\n<p>While rate of climb indicators show altitude changes and hence changes in the potential energy of the sailplane, total-energy variometers indicate changes in the total energy of the sailplane, that is, both its potential energy (due to altitude) and its kinetic energy (due to airspeed). The great advantage of the total-energy variometer is that airspeed changes, which are basically exchanges between E<sub>kin</sub>, and E<sub>pot</sub> , are no longer dis­played. Thus, we can read if we gain or lose energy even if we are slowing or accelerating. This makes it much simpler to locate lift as \"energy-increase areas.\"</p>\n<p>The picture below represents two points of the polar curve of a glider. When we increase the speed of our glider in still air we move from point V<sub>1</sub> to point V<sub>2</sub> following the blue line and not the polar curve line. The glider follows the constant total energy curve. The glider has to loose height to increase its kinetic energy. A normal vario will indicate an \"extra\" descent rate as if we were in sinking air. </p>\n<p><img class=\"post__image post__image--center\" src=\"https://flightcomp.github.io/website/media/posts/7/tecompensation.png\" alt=\"\" width=\"873\" height=\"496\"></p>\n<p>When we decrease speed we move in the opposite direction algong the red line. A normal vario will detect a fictitious upward vertical motion of air. A TE vario discounts the changes in kinetic energy from the climb/descent indication making the travel through the polar curve line.</p>\n<h4 id=\"mcetoc_1e66n49hm1\">Horizontally moving air</h4>\n<p>Unfortunately there is another kind of influence on total energy imposed by the atmosphere: the gain or loss of kinetic energy by a sudden increase or decrease of the aircraft's velocity with reference to air by horizontal gusts or wind shear.</p>\n<p>Every pilot know the effect of the wind gradient on landing. The glider is descending into a decreasing headwind caused by friction between the wind and the surface. The result is a decrease in airspeed and sink rate may increase significantly to regain airspeed or in an extreme case the glider may stall. Even worse if turning too steeply on final approach. There is less wind across the lower wing than across the higher wing and may roll the glider past a vertical bank.</p>\n<p>A headwind gust causes the opposite effect. Airspeed increases so there's a kinetic energy gain. This jump in \"energy\" is seen by the TE variometer exactly the same way as if the glider had made an equivalent jump in altitude at constant velocity. The TE variometer cannot discriminate between the two sorts of energy change. Shortly after the glider will restore its previous airspeed causing a jump of dH=1/G x V x dV, and so a climb rate change indicated by the normal vario, leading the pilot into believing that he's entering a thermal.</p>\n<h4 id=\"mcetoc_1e66u78sr0\">Read more:</h4>\n<address> </address>\n<ol>\n<li>François Ragot. Unsuitability of existing TE variometers for dynamic soaring. OSTIV Congress 1981.</li>\n<li>Rudolf Brözel. Total energy Kompensation. September 1985.</li>\n<li>Taras Kiceniuk. A variometer for dynamic soaring. Technical Soaring, volume 25, number 4, October 2001.</li>\n<li>François Ragot. Best speed story, page 12, left column, Technical Soaring, volume 28, Numbers 1 /2, January/April 2004.</li>\n</ol>\n<p> </p>\n<p> </p>",
             "author": {
                 "name": "Roberto Chao"
             },
             "tags": [
             ],
             "date_published": "2020-04-18T13:27:17+02:00",
-            "date_modified": "2020-04-18T17:27:53+02:00"
+            "date_modified": "2020-04-19T11:42:16+02:00"
         },
         {
             "id": "https://flightcomp.github.io/website/thermal-hunters.html",
@@ -77,7 +125,7 @@
         {
             "id": "https://flightcomp.github.io/website/vario-averager.html",
             "url": "https://flightcomp.github.io/website/vario-averager.html",
-            "title": "Vario averager",
+            "title": "Smart vario averager",
             "summary": "The vario averager is an extra functionality of some variometers that helps when you are dealing with broken thermals. As the name already indicates, this function calculates the climb rate average over a period of time. Although you were sinking, the variometer would continue beeping, probably in a&hellip;",
             "content_html": "<blockquote>\n<p>The vario averager is an extra functionality of some variometers that helps when you are dealing with broken thermals.</p>\n</blockquote>\n<p>As the name already indicates, this function calculates the climb rate average over a period of time. Although you were sinking, the variometer would continue beeping, probably in a somewhat different manner, until the average climb rate becomes negative. It's the same as saying: \"until the altitude gain during the interval becomes negative\"</p>\n<p>How do we choose the length of this time interval? If you're turning into a thermal the time interval should be equal to the time spent in doing a full turn. The vario will encourage you to keep turning if the altitude gain in a complete turn is positive and leave if we lose altitude before completing the turn. </p>\n<p>When the thermal reaches an inversion layer climb rate is weaker or doesn't exist and you turn wide. A long time interval would will encourage you to stay. On the other hand when the thermal is small and strong, you turn tight and a long time interval will prevent you from detect in time when you fall out of the thermal.</p>\n<p class=\"msg msg--highlight \">Thus to make things clear the interval should vary depending on the turn radius which is not the case in most modern flight instruments. </p>",
             "image": "https://flightcomp.github.io/website/media/posts/3/maxresdefault.jpg",
@@ -87,37 +135,7 @@
             "tags": [
             ],
             "date_published": "2020-04-13T20:42:14+02:00",
-            "date_modified": "2020-04-18T16:59:51+02:00"
-        },
-        {
-            "id": "https://flightcomp.github.io/website/climb-rate-computing.html",
-            "url": "https://flightcomp.github.io/website/climb-rate-computing.html",
-            "title": "Smartphone variometer",
-            "summary": "In this article we're going to explore the problems of computing vertical speed from pressure data obtained from meteorological or first-fix gps purpose pressure sensors, some smartphones have built-in (Bosch Sensortec BMP180, BMP280). To obtain the climb or descent rate we must take the derivative of the pressure signal with&hellip;",
-            "content_html": "<blockquote>\n<p>In this article we're going to explore the problems of computing vertical speed from pressure data obtained from meteorological or first-fix gps purpose pressure sensors, some smartphones have built-in (Bosch Sensortec BMP180, BMP280).</p>\n</blockquote>\n<p>To obtain the climb or descent rate we must take the derivative of the pressure signal with respect to time and apply the equation.</p>\n<p>$$\\frac{dp}{dh}=-\\frac{g}{R*T} * p \\to \\frac{dh}{dt} = -\\frac{dp}{dt}*\\frac{R*T}{g*p}$$</p>\n<p>Derived from the hydrostatic equation and the ideal gas law, the basic physical equations used for modeling the atmosphere.</p>\n<p>When used for free flight, the two most valuable features of a pressure sensor are frequency bandwith and precission. Newest pressure sensors improve precission in regard to oldest ones in some modes of operation because they feature an internal IIR filter that, on the other hand, reduces bandwith well below 2 Hz. For flight purposes we need at least 5 Hz of frequency bandwith and data sampling rates above 10 samples per second what makes this modes of operation unusable. Therefore we have to select a mode of operation that switches the IIR filter off raising precission to around 25 cm (0.03 hPa). If x[n] represents the noise signal added to the true pressure at the moment nT where T is de sampling period in seconds, the derivative of the pressure readings of a static sensor would be:</p>\n<p>$$y[n]=\\frac{x[n+1]-x[n]}{T}$$</p>\n<p>Assuming uncorrelated noise, the standard deviation (RMS) of the derivative signal is:</p>\n<p>$$\\sigma_y=\\frac {{\\sqrt 2} \\sigma_x}{T}$$</p>\n<p>Which in the case above gives an unacceptable RMS error of 3.53 m/s in the climb/descent rate. Low pass pre-filtering of the pressure signal before making the derivative is not an option because a low-pass filter reduces bandwith and also adds delay.</p>\n<p>Fortunately a smartphone has more sensors. One of them is a tri-axial accelerometer which detects the accelerations of the phone. We are interested in the vertical component of the acceleration after substracting gravity. We integrate this signal over time to obtain an estimation of vertical speed and integrate it once more to obtain height.</p>\n<p>Whereas differentiation enhances high-frequency noise, integration enhances low-frequency noise, commonly known as drift. To correct for this drift we use the sensor pressure readings. This is implemented with a kalman-filter that combines both signals weighting each one in inverse proportion to its RMS.</p>\n<p>It's relatively straightforward to obtain the typical RMS of both sensors from their datasheets or we can get this values from experimental data. Analysing data collected from the BMA220 accelerometer we can confirm that RMS noise is ten times smaller than that of the barometer BMP180 in the same smartphone. Furthermore we have detected a zero-point error of 0.1 m/s<sup>2</sup>. This states the importance of calibrating phone sensors before making any measurement. There are a lot of apps that perform this calibration proccess or you can run a calibration inside your flight app.</p>\n<p><img class=\"post__image post__image--center\" src=\"https://flightcomp.github.io/website/media/posts/2/magneto_dynamic.png\" width=\"1853\" height=\"1025\"></p>\n<p>The upper graph in the figure above represents the altitude output of the kalman filter (red solid line) superimposed to the data got from the barometer (black line). The lower graph represents the vertical speed output of the kalman filter superimposed to the data got from the accelerometer when we lift the phone two meters from the floor. Almost perfect!</p>\n<p>However when we simulate strong climb/descent rates, severe inaccuracies in the accelerometer make their appareance leading to unacceptable drift in the altitude signal, and rebounds in the vertical speed signal. See the figure below.</p>\n<p><img class=\"post__image post__image--center\" src=\"https://flightcomp.github.io/website/media/posts/2/kalman_fails.png\" width=\"1853\" height=\"1025\"></p>\n<p><img class=\"post__image post__image--left\" src=\"https://flightcomp.github.io/website/media/posts/2/Centripetal.png\" width=\"791\" height=\"697\"></p>\n<p>There's one more problem in trusting the accelerometer so much: The centrifugal forces generated during a turn with banking change the direction of the gravity force and sum to it making up an apparent load like when you are climbing. </p>\n<p>Lowering the weight of the accelerometer readings over the barometer readings we  reduce drift and rebounds at the cost of increasing noise. See the figure below.</p>\n<p><img class=\"post__image post__image--center\" src=\"https://flightcomp.github.io/website/media/posts/2/kalman_fails2.png\" alt=\"\" width=\"1853\" height=\"1025\"></p>\n<p class=\"msg msg--success\">The blue line corresponds to the output of our optimized algorithm. Using it we can reduce RMS noise in the vertical speed to 0.07 m/s with a fairly acceptable delay.</p>",
-            "image": "https://flightcomp.github.io/website/media/posts/2/kalman2.png",
-            "author": {
-                "name": "Roberto Chao"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-04-08T22:06:59+02:00",
-            "date_modified": "2020-04-18T17:35:33+02:00"
-        },
-        {
-            "id": "https://flightcomp.github.io/website/glide-computers.html",
-            "url": "https://flightcomp.github.io/website/glide-computers.html",
-            "title": "Wing average computing",
-            "summary": "One of the main features of today glide computers is the estimation of wind, the speed and direction of the air mass inside we're moving. It's the base of other estimations like the required time and altitude to reach a waypoint. When we sum this vectorial magnitude (blue arrow)&hellip;",
-            "content_html": "<blockquote>\n<p>One of the main features of today glide computers is the estimation of wind, the speed and direction of the air mass inside we're moving. It's the base of other estimations like the required time and altitude to reach a waypoint.</p>\n</blockquote>\n<p>When we sum this vectorial magnitude (blue arrow) to the airspeed (green arrow) we obtain the ground speed measured by the gps of the flight instrument (red arrow).<img class=\"post__image post__image--left\" src=\"https://flightcomp.github.io/website/media/posts/1/Flechas2.png\" alt=\"Vectorial sum\" width=\"192\" height=\"216\"></p>\n<p>So the the procedure to obtain the wind is as simple as substract the air speed to the ground speed given by the gps. Some expensive glide instruments have a true airspeed probe but the vast majority don't. How the latter manage to estimate the wind speed and direction?</p>\n<p>In fact they don't estimate the instant wind speed and direction but an <em>average</em>. They make one more assumption. The airspeed, though unknown, is constant. Making this two assumptions and taking the ground speed measured by the gps in at least three different moments we can pose a resolvable system of equations.</p>\n<p>We don't want to bore you with the mathematical calculations but they are roughly similar to derive the geometric 3D plane from three points it passes through. When we add noise to the position of this three points, just as it happens with the gps data, and the points are near each other, the solution of the system of equations can lead us to a completely different plane. It's what we call an ill-posed problem. To avoid it we must take more than three points and make sure they are far enough from each other.</p>\n<p>In the present case that means taking ground speed samples along a time window sufficiently long and in a wide range of directions of flight. However, if we take a time window too long it won't record variations in the average wind due to changes in the weather conditions or changes of the flight area. A time window of 10 min. is short enough to detect meteorological and geographical changes of wind in the scale of 5 km while still providing a reliable estimate.</p>\n<p>Nevertheless the wind also changes with altitude. Sometimes suddenly when we move from one air layer on to another one. At a climb rate of 2m/s during 10 min we can climb up 1200 m. Enough difference in altitude for the wind average to significantly change two or three times. If we use a 10 min. time window this changes will inadvertently pass because they will be averaged.</p>\n<p>Our algorithm uses a variable lenght time window and records changes in wind speed and direction with the altitude.</p>\n<p> </p>",
-            "image": "https://flightcomp.github.io/website/media/posts/1/IMG-20170720-WA0007.jpg",
-            "author": {
-                "name": "Roberto Chao"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-04-07T16:38:47+02:00",
-            "date_modified": "2020-04-18T17:37:02+02:00"
+            "date_modified": "2020-04-19T12:43:54+02:00"
         }
     ]
 }
